@@ -3,8 +3,9 @@ import Header from "../components/Header";
 import FunComp from "../components/FunComp";
 import Counter from "../components/Counter";
 import Youtube from "../components/Youtube";
-import Login from "../components/Login"
-import AuthUser from "../components/AuthUser"
+import Login from "../components/Login";
+import AuthUser from "../components/AuthUser";
+import UserList from "../components/UserList";
 
 const index = () => {
   return (
@@ -17,7 +18,8 @@ const index = () => {
     {/* <Counter /> */}
     {/* <Youtube />  */}
     {/* <Login /> */}
-    <AuthUser />
+    {/* <AuthUser /> */}
+    <UserList />
     </>
   );
 };
