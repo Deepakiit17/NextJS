@@ -41,6 +41,7 @@ const Users: React.FC = () => {
                         <td>Name</td>
                         <td>Username</td>
                         <td>Email</td>
+                        <td>address</td>
                     </tr>
                 </thead>
                 <tbody>
@@ -51,6 +52,7 @@ const Users: React.FC = () => {
                                 <td>{user.name}</td>
                                 <td>{user.username}</td>
                                 <td>{user.email}</td>
+                                <td>{user.address.street}</td>
                             </tr>
                         ))
                     }

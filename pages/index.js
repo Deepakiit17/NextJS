@@ -1,10 +1,11 @@
 import Head from "next/head";
+import Link from "next/link";
 // import {BrowserRouter, Routes, Route} from 'react-router-dom';
 // import Header from "../components/Header";
 // import FunComp from "../components/FunComp";
 // import Counter from "../components/Counter";
 // import Youtube from "../components/Youtube";
-// import Login from "../components/Login";
+import Login from "../components/Login";
 // import AuthUser from "../components/AuthUser";
 // import UserList from "../components/UserList";
 import Users from "../components/Users";
@@ -22,10 +23,10 @@ const index = () => {
     {/* <FunComp /> */}
     {/* <Counter /> */}
     {/* <Youtube />  */}
-    {/* <Login /> */}
+    <Login />
     {/* <AuthUser /> */}
     {/* <UserList /> */}
-    <Users />
+    {/* <Users /> */}
     {/* <UserDetail /> */}
     </>
   );
